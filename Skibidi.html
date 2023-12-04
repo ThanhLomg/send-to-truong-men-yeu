@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhăm nhăm</title>
+    <style>
+        
+        img{
+            float: left;
+            border-radius: 50%;
+            height: 180px;
+            overflow: hidden;
+        }
+        img{
+            transition: 3s;
+        }
+        img:hover{
+            transform: scale(1.5) rotate(36000deg);
+        }
+        .background-container {
+            width: 100%;
+            height: 100vh;
+            background-color: #000;
+            animation: color-flashing 1s infinite;
+        }
+
+        @keyframes color-flashing {
+            0% { background-color: #000; } 
+            25% { background-color: #ff0000; } 
+            50% { background-color: #00ff00; } 
+            75% { background-color: #0000ff; }
+            100% { background-color: #000; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <img src="Bân con.png" alt="asd">
+        <h1 style="padding-left: 150px;">Phan Tự Trường <hr>Sinh viên Trường Đại học Công Nghệ Đông Á</h1>
+        <br>
+        <h2 style="padding-left: 40px;">Uy Tín, Thịt lợn ngon, nhà 20 năm bán thịt lợn</h2>
+    </div>
+
+    
+</body>
+</html>
